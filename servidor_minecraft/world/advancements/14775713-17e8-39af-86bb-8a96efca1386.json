@@ -7,9 +7,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:windswept_hills": "2025-10-04 09:51:23 +0000",
       "minecraft:beach": "2025-10-04 09:26:34 +0000",
       "minecraft:river": "2025-10-04 09:05:12 +0000",
       "minecraft:forest": "2025-10-03 16:51:31 +0000",
+      "minecraft:ocean": "2025-10-04 09:36:04 +0000",
       "minecraft:plains": "2025-10-04 09:08:54 +0000"
     },
     "done": false
@@ -386,6 +388,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-10-04 09:49:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-10-04 09:18:19 +0000"
@@ -644,6 +652,18 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-10-04 09:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-10-04 09:49:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-10-04 09:11:14 +0000"
@@ -700,6 +720,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-10-04 09:40:46 +0000",
       "minecraft:zombie": "2025-10-04 09:12:33 +0000"
     },
     "done": false
@@ -910,7 +931,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "mutton": "2025-10-04 09:14:46 +0000"
+      "mutton": "2025-10-04 09:14:46 +0000",
+      "rotten_flesh": "2025-10-04 09:50:47 +0000"
     },
     "done": false
   },
